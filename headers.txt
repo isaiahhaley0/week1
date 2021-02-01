@@ -1,0 +1,40 @@
+Request Headers
+User-Agent: PostmanRuntime/7.26.10
+	-the signature of the application making the call
+Accept: */*
+	-what file types is being accepted
+Postman-Token: c699e0ab-20dc-4965-a25b-979a16457569
+	-authentification of the application
+Host: www.googleapis.com
+	-specifies the host of the server to which the requesst is being sent
+Accept-Encoding: gzip, deflate, br
+	-acceptable encoding formats
+Connection: keep-alive
+	controls whether or not the network connection stays open. In this case it does.
+Response Headers
+Content-Type: application/json; charset=UTF-8
+	-media type of the resource, in this case json data encoded in the UTF-8 format
+Vary: Origin
+	
+Vary: X-Origin
+Vary: Referer
+	-determines how to match future requests
+Content-Encoding: gzip
+	-actual content encoding, in this case, the gzip format
+Date: Mon, 01 Feb 2021 00:31:41 GMT
+	-date and time in GMT
+Server: ESF
+	-the name of the server software that handled the request
+Cache-Control: private
+	-indicates that al of the message is intended for the user and must not be chached by a shared cache.
+X-XSS-Protection: 0
+	-disables xss filtering
+X-Frame-Options: SAMEORIGIN
+	-The page can only be displayed in a frame on the same origin as the page itsself
+X-Content-Type-Options: nosniff
+	-prevents the browser from doing MIME sniffing
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+	-alternate sources of the content, with keep alive and max age
+Transfer-Encoding: chunked
+	-data is sent in series of chunks
+
