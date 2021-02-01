@@ -1,1 +1,1 @@
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d078cdac20b3f0c537cd)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.postman.co/run-collection/d078cdac20b3f0c537cd)
